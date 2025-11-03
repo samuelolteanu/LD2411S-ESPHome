@@ -51,8 +51,7 @@ OTA updates are also available via Bluetooth.
 
 ---
 
-## 🧠 Notes  
-- The deprecated `.h` file from the original version is **no longer required** when using this new external component setup.  
+## 🧠 Notes   
 - The removed distance and unoccupied time settings can still be tuned via the **HiLink mobile app**.  
 - Works reliably across ESP32 boards using the ESP-IDF framework.
 
