@@ -8,14 +8,14 @@ ESPHome Integration (updated for latest ESPHome versions)
 
 ## 🧾 Credits  
 Original integration created by the [initial project author](https://github.com/Chreece/LD2411S-ESPHome).  
-This version has been updated to be compatible with the latest **ESPHome** releases, which now use **external components** instead of deprecated custom components.
+This version has been updated to be compatible with the latest **ESPHome** releases, which now uses **external components** instead of deprecated custom components.
 
 ---
 
 ## 🔧 Updates in This Version  
 - Converted to **ESPHome external component** and can now be compiled.
 - Removed number entities for *min/max distance* and *unoccupied time* (and their readouts), as they did not work reliably across all tested boards (only 1 of 3).  
-  - These parameters can now be configured directly via the **HiLink App**: [HLKRadarTool](https://www.pgyer.com/Lq8p).  
+  - These parameters can be configured directly via the **HiLink App**: [HLKRadarTool](https://www.pgyer.com/Lq8p).  
 - Simplified setup and improved compatibility with the ESP-IDF framework.  
 - Preserved all functional entities (presence, motion, distance, Bluetooth control)
 
