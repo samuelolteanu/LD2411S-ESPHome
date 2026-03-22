@@ -17,7 +17,7 @@ external_components:
   - source:
       type: git
       url: https://github.com/samuelolteanu/LD2411S-ESPHome
-      ref: dev
+      ref: main
     components: [  ld2411s ]
 
 uart:
